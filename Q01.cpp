@@ -12,7 +12,7 @@ int main(){
     double decimal7M = 1.00000015;
     char carac = 'A';
     wchar_t carcEsp = L'$';
-    unsigned char usig =  "manipulador"[30]; 
+    unsigned char usig[30] =  "manipulador"; 
     
     std::cout << intp << " " << inteiro << " " << intg << " " << intG << " " << decimal7m << " " << decimal7M << " " << carac << " " << carcEsp << " " << usig << std::endl;
     
